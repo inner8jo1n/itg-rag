@@ -1,0 +1,2 @@
+class RAGError(RuntimeError):
+    pass

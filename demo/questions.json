@@ -1,0 +1,14 @@
+[
+  {"question": "За сколько дней Полка доставит заказ по Москве и сколько это стоит?", "should_answer": true, "expected_source": "01_delivery.txt", "expected_terms": ["2–3", "290", "3500"]},
+  {"question": "В какой срок можно вернуть исправный товар в Полку?", "should_answer": true, "expected_source": "02_returns.txt", "expected_terms": ["21"]},
+  {"question": "Какие способы оплаты принимает Полка?", "should_answer": true, "expected_source": "03_payment.txt", "expected_terms": ["Мир", "СБП"]},
+  {"question": "Когда работает поддержка Полки и куда писать?", "should_answer": true, "expected_source": "04_support.txt", "expected_terms": ["09:00", "19:00", "help@polka.example"]},
+  {"question": "Какая гарантия на настольные игры в Полке?", "should_answer": true, "expected_source": "05_warranty.txt", "expected_terms": ["90"]},
+  {"question": "Сколько действует ссылка восстановления пароля?", "should_answer": true, "expected_source": "06_account.txt", "expected_terms": ["30 минут"]},
+  {"question": "Сколько дней хранится заказ в пункте самовывоза?", "should_answer": true, "expected_source": "07_pickup.txt", "expected_terms": ["5 календарных"]},
+  {"question": "Какую часть заказа можно оплатить бонусами Полки?", "should_answer": true, "expected_source": "08_loyalty.txt", "expected_terms": ["20%"]},
+  {"question": "Как лечить воспаление лёгких?", "should_answer": false},
+  {"question": "Сколько стоит доставка Полки в Берлин?", "should_answer": false},
+  {"question": "Кто основал магазин Полка и в каком году?", "should_answer": false},
+  {"question": "Какая гарантия на ноутбуки в Полке?", "should_answer": false}
+]

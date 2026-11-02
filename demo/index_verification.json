@@ -1,0 +1,17 @@
+{
+  "documents": 8,
+  "chunks": 16,
+  "embedding_dimensions": 1536,
+  "first_sync": {
+    "indexed": 16,
+    "inserted": 0,
+    "updated": 16,
+    "removed": 0
+  },
+  "second_sync": {
+    "indexed": 16,
+    "inserted": 0,
+    "updated": 16,
+    "removed": 0
+  }
+}

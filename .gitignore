@@ -30,3 +30,6 @@ dist/
 
 # Secrets
 .env
+.env.*
+!.env.example
+results/
